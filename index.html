@@ -10,13 +10,30 @@
             width: 520px;
             border: solid black 1px;
             margin: 150px auto;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .logo{
+            height: 210px;
+            width: 170px;
+        }
+
+        .date{
+            color: #e60073;
         }
     </style>
 </head>
 <body>
     <div class="ticket-container">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzJNRAzImpVpMO7q6AruoV4r-Q2BFqL-7hyw&s" alt="college-logo">
-
+        <div class="clg-logo">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzJNRAzImpVpMO7q6AruoV4r-Q2BFqL-7hyw&s" alt="college-logo" class="logo">
+         </div>
+        <div class="event-info">
+            <br>
+          <span><b>MONDAY</b></span> &nbsp; &nbsp;  <SPan class="date"><b>FEB 24TH</b></SPan> &nbsp; &nbsp;  <SPan><b>2025</b></SPan>
+          
+        </div>
     </div>
 </body>
 </html>
