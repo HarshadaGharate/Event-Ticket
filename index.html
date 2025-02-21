@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Event-Ticket</title>
     <style>
+        body{
+            background-color: #fae6ff;
+        }
         .ticket-container{
             height: 210px;
             width: 540px;
@@ -12,6 +15,7 @@
             margin: 150px auto;
             display: flex;
             flex-direction: row;
+            background-color: white;
         }
 
         .logo{
@@ -130,6 +134,64 @@
             margin-left: 10px;
         }
         }
+
+        @media (max-width:600px){
+            .ticket-container{
+            height: 550px;
+            width: 260px;
+            padding-left: 20px;
+            border: solid black 1px;
+            margin: 30px auto;
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+        }
+        .logo{
+            height: 150px;
+            width: 150px;
+            margin-left: 40px;
+        }
+        .day{
+            font-size: 15px;
+        }
+        .event-name{
+            margin-left: 50px;
+            font-family: Papyrus;
+            font-size: 25px;
+            margin-top: 20px;
+        }
+        .time{
+            font-size: 15px;
+        }
+
+        .venue{
+            margin-left: 20px;
+        }
+        .user-side{
+            width: 240px;
+            border-top: black 1px dotted;
+            border-left: none;
+        }
+        .user-name{
+            margin-left: 65px;
+        }
+        .user-time{
+            margin-left: 45px;
+            font-size: 17px;
+        }
+        .qr{
+            height: 90px;
+            width: 100px;
+            margin-left: 60px;
+        }
+
+        .code{
+            position: relative;
+            left: 30px;
+            font-size: 18px;
+        }
+       
+        }
         
     </style>
 </head>
@@ -139,6 +201,7 @@
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzJNRAzImpVpMO7q6AruoV4r-Q2BFqL-7hyw&s" alt="college-logo" class="logo">
          </div>
         <div class="event-info">
+            
             <hr>
           <span style="color: #003399;"><b class="day">MONDAY</b></span> &nbsp; &nbsp;  <SPan class="date day"><b>FEB 24TH</b></SPan> &nbsp; &nbsp;  <SPan style="color: #003399;"><b class="day">2025</b></SPan>
           <hr>
@@ -158,7 +221,7 @@
         <b class="user-name">Tech Fest </b>
             <span class="user-time">9:30AM to 1:00PM</span>
             <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/QR_code_for_mobile_English_Wikipedia.svg" alt="QR code" class="qr">
-            <span style="color: #003399; margin-left: 40px;">#20030220</span>
+            <span style="color: #003399; margin-left: 40px;" class="code">#20030220</span>
         </div>
     </div>
 </body>
