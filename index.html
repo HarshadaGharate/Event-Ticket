@@ -7,7 +7,7 @@
     <style>
         .ticket-container{
             height: 210px;
-            width: 520px;
+            width: 540px;
             border: solid black 1px;
             margin: 150px auto;
             display: flex;
@@ -16,7 +16,7 @@
 
         .logo{
             height: 210px;
-            width: 170px;
+            width: 150px;
         }
 
         .date{
@@ -31,6 +31,9 @@
             color: #003399;
         }
 
+        .event-info{
+            width: 240px;
+        }
         .time{
             margin-left: 40px;
              color:#e60073 ;
@@ -39,9 +42,33 @@
 
         .venue{
             color:#003399;
-            margin-left: 25px;
+            
             margin-top: 5px;
         }
+
+        .user-side{
+            width: 150px;
+            border-left: black 1px dotted;
+        }
+
+        .user-time{
+            margin-left: 10px;
+            color:#003399 ;
+        }
+
+        .user-name{
+            margin-left: 20px;
+            font-size: 20px;
+            margin-top: 10px;
+            color: #e60073;
+            font-family: Papyrus;
+        }
+
+        .qr{
+            height: 130px;
+            width: 140px;
+        }
+        
     </style>
 </head>
 <body>
@@ -63,7 +90,12 @@
           <br> 
           <b class="venue">Indoor Hall , SVIT , Nashik</b>
           
-          
+        </div>
+          <br> <br>
+        <div class="user-side">
+        <b class="user-name">Tech Fest </b>
+            <span class="user-time">9:30AM to 1:00PM</span>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/QR_code_for_mobile_English_Wikipedia.svg" alt="QR code" class="qr">
         </div>
     </div>
 </body>
