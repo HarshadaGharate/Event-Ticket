@@ -68,6 +68,68 @@
             height: 130px;
             width: 140px;
         }
+
+        /* tablet */
+        @media screen and (min-width:601px) and (max-width:800px){
+            .ticket-container{
+           height: 180px;
+           width: 480px;
+            border: solid black 1px;
+            margin: 150px auto;  
+        }
+
+        .logo{
+            height: 150px;
+            width: 120px;
+        }
+
+        .event-name{
+            margin-left: 20px;
+            font-family: Papyrus;
+            font-size: 28px;
+            margin-top: 17px;
+            
+        }
+
+        .event-info{
+            width: 220px;
+        }
+
+        .day{
+            font-size: 15px;
+        }
+
+        .time{
+            margin-left: 25px;
+            font-size: 15px;
+        }
+
+        .venue-name{
+            font-size: 13px;
+        }
+        
+        .venue{
+            font-size: 15px;
+        }
+
+        .user-name{
+            margin-left: 22px;
+            font-size: 17px;
+            font-family: Papyrus;
+        }
+
+        .user-time{
+            margin-left: 10px;
+            color:#003399 ;
+            font-size: 15px;
+        }
+
+        .qr{
+            height: 110px;
+            width: 130px;
+            margin-left: 10px;
+        }
+        }
         
     </style>
 </head>
@@ -78,7 +140,7 @@
          </div>
         <div class="event-info">
             <hr>
-          <span style="color: #003399;"><b>MONDAY</b></span> &nbsp; &nbsp;  <SPan class="date"><b>FEB 24TH</b></SPan> &nbsp; &nbsp;  <SPan style="color: #003399;"><b>2025</b></SPan>
+          <span style="color: #003399;"><b class="day">MONDAY</b></span> &nbsp; &nbsp;  <SPan class="date day"><b>FEB 24TH</b></SPan> &nbsp; &nbsp;  <SPan style="color: #003399;"><b class="day">2025</b></SPan>
           <hr>
 
           <b class="event-name">Tech Fest</b>
@@ -86,7 +148,7 @@
           <span class="time">9:30AM to 1:00PM</span>
           
           <hr style="color: black;">
-          <span style="color: #e60073; margin-left: 80px;">VENUE :-</span>
+          <span style="color: #e60073; margin-left: 80px;" class="venue-name">VENUE :-</span>
           <br> 
           <b class="venue">Indoor Hall , SVIT , Nashik</b>
           
